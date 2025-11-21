@@ -522,5 +522,35 @@
 </a>
 <!-- BOTÃO FLUTUANTE WHATSAPP -->
 
+<script>
+// Bloqueia o evento de cópia
+document.addEventListener("copy", function(e) {
+  e.preventDefault();
+  alert("Cópia desabilitada");
+});
+
+// Bloqueia o evento de clique com o botão direito
+document.addEventListener("contextmenu", function(e) {
+  e.preventDefault();
+  alert("Clique com o botão direito desabilitado");
+});
+
+// Bloqueia o atalho Ctrl+C
+document.addEventListener("keydown", function(e) {
+  if (e.ctrlKey && e.key === 'c') {
+    e.preventDefault();
+    alert("Atalho Ctrl+C desabilitado");
+  }
+});
+
+// Bloqueia o atalho Ctrl+U
+document.addEventListener("keydown", function(e) {
+  if (e.ctrlKey && e.key === 'u') {
+    e.preventDefault();
+    alert("Atalho Ctrl+U desabilitado");
+  }
+});
+</script>
+
 </body>
 </html>
