@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/slide.css">
 
     <link rel="canonical" href="https://bombomdocesesalgados.com.br/">
 
@@ -24,28 +25,28 @@
     
     <style type="text/css">
 
-     @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&family=Russo+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 
-     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-     h1, h2, h3, h4, h5, h6, .titulo  {
+        h1, h2, h3, h4, h5, h6, .titulo  {
 
-        font-family: "Russo One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+            font-family: "Playball", cursive;
+            font-weight: 400;
+            font-style: normal;
 
-    }
+        }
 
-    p {
+        p {
 
-     font-family: "Poppins", sans-serif;
+           font-family: "Poppins", sans-serif;
 
- }
+       }
 
-</style>
+   </style>
 
 
-<script type="application/ld+json">
+   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
@@ -73,54 +74,83 @@
 
 <body class="bg-yellow-50" id="scroll-top">
 
-    <main class="py-5 lg:px-10 px-5 bg-black bg-[url('https://images.unsplash.com/photo-1710077862092-16fec8d6505c?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center relative">
+<!-- MENU MOBILE -->
+<section class="z-20 w-full bg-red-950 lg:hidden">
+    <nav class=" mx-auto w-full lg:px-10 px-5 left-0 right-0 pb-5 pt-5 flex max-md:flex-col gap-8 items-center justify-between z-20">
+        <a href="./index.html"><img src="./img/logo-bombom.svg" alt="Logo BomBom Doces e Salgados" class="h-14 max-md:h-18"></a>
+        <div class="max-md:w-full flex items-center max-md:justify-between lg:gap-8 gap-2 font-semibold uppercase text-sm text-white">
+            <a href="./doces.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Doces</a>
+            <a href="./salgados.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Salgados</a>
+            <a href="./bolos-e-tortas.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Bolos e Tortas</a>
+            <a href="./kit-festa.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Kit Festa</a>
+            <a href="./paes.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Pães</a>
+            <a href="#quemsomos" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Quem Somos</a>
+        </div>
+    </nav>
+</section>
+<!-- MENU MOBILE -->
 
-        <header class="max-md:mt-1 lg:px-10 px-5 absolute left-0 right-0 z-40 max-w-screen-xl mx-auto">
-            <nav class="border-b pb-5 border-white/30 flex max-md:flex-col gap-8 items-center justify-between">
-                <a href="./index.html"><img src="./img/logo-bombom.svg" alt="Logo BomBom Doces e Salgados" class="h-14"></a>
-                <div class="max-md:w-full flex items-center max-md:justify-between lg:gap-8 gap-2 font-semibold uppercase text-sm text-white">
-                    <a href="./doces.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Doces</a>
-                    <a href="./salgados.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Salgados</a>
-                    <a href="./bolos-e-tortas.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Bolos e Tortas</a>
-                    <a href="./kit-festa.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Kit Festa</a>
-                    <a href="./paes.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Pães</a>
-                    <a href="#quemsomos" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Quem Somos</a>
-                </div>
-            </nav>
-        </header>
+<!-- MENU DESKTOP -->
+<header class="relative z-20 w-full max-md:hidden">
+    <nav class="max-w-screen-xl mx-auto w-full px-5 lg:px-10 left-0 right-0 border-b pb-5 mt-5 border-white/30 flex max-md:flex-col gap-8 items-center justify-between z-20 absolute">
+        <a href="./index.html"><img src="./img/logo-bombom.svg" alt="Logo BomBom - Doces e Salgados" title="BomBom - Doces e Salgados" class="h-14 max-md:h-18"></a>
+        <div class="max-md:w-full flex items-center max-md:justify-between lg:gap-8 gap-2 font-semibold uppercase text-sm text-white">
+            <a href="./doces.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Doces</a>
+            <a href="./salgados.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Salgados</a>
+            <a href="./bolos-e-tortas.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Bolos e Tortas</a>
+            <a href="./kit-festa.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600">Kit Festa</a>
+            <a href="./paes.html" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Pães</a>
+            <a href="#quemsomos" class="block hover:border-b-2 py-1 hover:border-yellow-500 hover:text-yellow-500 transition duration-600 max-md:hidden">Quem Somos</a>
+        </div>
+    </nav>
+    <div class="bg-gradient-to-b from-black/80 w-full bottom-0 right-0 top-0 h-50 absolute"></div>
+</header>
+<!-- MENU DESKTOP -->
 
-        <div class="mt-60 max-md:mt-54 lg:mb-40 max-md:mb-18  max-w-screen-xl mx-auto flex flex-col justify-center items-center">
+<!-- SLIDE SHOW -->
+<main class="">
+    <div class="slideshow-container">
 
-            <div class="z-10 text-white text-center">
-                <h1 class="lg:text-6xl text-4xl">BomBom - Doces e Salgados</h1>
-                <p class="text-xl mt-5">Torne a sua festa inesquecível com a BomBom.</p>
-            </div> 
+      <div class="mySlides fade">
+        <h1 class="flex text-7xl max-md:text-3xl text-white z-5 absolute w-full top-0 bottom-0  lg:bottom-20 flex items-center justify-center text-shadow-md">Doces e Salgados</h1>
+        <p class="flex text-xl max-md:text-sm text-white font-medium z-5 mt-4 absolute w-full text-center px-5 top-10 bottom-0 flex items-center justify-center text-shadow-md">Torne a sua festa inesquecível com a BomBom.</p>
 
-            <div class="w-full max-w-xl z-10 text-white mt-12 flex items-center justify-between gap-4">
+    <div class="bg-black/45 w-full bottom-0 right-0 h-full absolute"></div>
+    <img src="./img/slide-01.jpg" style="width:100%">
+</div>
 
-                <div class="w-full text-center flex flex-col items-center justify-center">
-                    <p class="font-semibold lg:text-xl text-lg flex max-md:flex-col items-center lg:gap-2  gap-1"><img src="./img/icon-candy.svg" alt="Ícone Doce"> +100 mil</p>
-                    <p class="uppercase text-xs mt-1">Doces vendidos</p>
-                </div>
+<div class="mySlides fade">
+    <p class="titulo flex text-7xl max-md:text-3xl text-white z-5 absolute w-full top-0 bottom-0 flex items-center justify-center text-shadow-md">Bolos e Tortas</p> 
+    <div class="bg-black/45 w-full bottom-0 right-0 h-full absolute"></div>
+    <img src="./img/slide-02.jpg" style="width:100%">              
+</div>
 
-                <div class="w-full text-center flex flex-col items-center justify-center">
-                    <p class="font-semibold lg:text-xl text-lg flex max-md:flex-col items-center lg:gap-2  gap-1"><img src="./img/icon-salt.svg" alt="Ícone Doce"> +100 mil</p>
-                    <p class="uppercase text-xs mt-1">Salgados vendidos</p>
-                </div>
+<div class="mySlides fade">
+    <p class="titulo flex text-7xl max-md:text-3xl text-white z-5 absolute w-full top-0 bottom-0 flex items-center justify-center text-shadow-md">Kit Festa</p>
+    <div class="bg-black/45 w-full bottom-0 right-0 h-full absolute"></div>
+    <img src="./img/slide-03.jpg" style="width:100%">              
+</div>
 
-                <div class="w-full text-center flex flex-col items-center justify-center">
-                    <p class="font-semibold lg:text-xl text-lg flex max-md:flex-col items-center lg:gap-2  gap-1"><img src="./img/icon-cake.svg" alt="Ícone Doce"> +150 mil</p>
-                    <p class="uppercase text-xs mt-1">Bolos e Tortas vendidos</p>
-                </div>
+<div class="mySlides fade">
+    <p class="titulo flex text-7xl max-md:text-3xl text-white z-5 absolute w-full top-0 bottom-0 flex items-center justify-center text-shadow-md">Pães</p>
+    <div class="bg-black/45 w-full bottom-0 right-0 h-full absolute"></div>
+    <img src="./img/slide-04.jpg" style="width:100%">             
+</div>
 
-            </div>
+<a class="prev max-md:hidden" onclick="plusSlides(-1)">❮</a>
+<a class="next max-md:hidden" onclick="plusSlides(1)">❯</a>
 
-        </div>   
+</div>
 
-        <div class="bg-gradient-to-b from-black/70 w-full bottom-0 right-0 top-0 h-50 absolute"></div>
-        <div class="lg:bg-black/40 bg-black/50 w-full bottom-0 right-0 h-full absolute"></div>
-    </main>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)" style="font-size:10px;"></span> 
+  <span class="dot" onclick="currentSlide(2)" style="font-size:10px;"></span> 
+  <span class="dot" onclick="currentSlide(3)" style="font-size:10px;"></span>
+  <span class="dot" onclick="currentSlide(4)" style="font-size:10px;"></span>
+</div>
 
+</main>
+<!-- SLIDE SHOW -->
 
 <!-- ATENDIMENTO VIA WHATSAPP -->
 <section class="lg:px-10 px-5 mt-10 lg:mb-8 max-md:mb-5">
@@ -129,7 +159,7 @@
             <div class="bg-red-700 hover:bg-red-800 group flex max-md:flex-col text-white gap-4 items-center justify-between px-8 lg:py-3 py-5 lg:rounded-full rounded-xl duration-600 transition">
 
                 <div class="flex max-md:flex-col lg:gap-4 gap-2 items-center max-md:text-center">
-                    <i style="font-size: 38px;" class="fa fa-whatsapp group-hover:rotate-20 transition duration-600"></i>
+                    <i style="font-size: 38px;" class="fa fa-whatsapp group-hover:rotate-10 transition duration-600"></i>
                     <div>
                         <p class="text-lg font-semibold">Atendimento via whatsapp</p>
                         <p class="text-sm">Pedidos, Orçamentos e dúvidas.</p>
@@ -150,67 +180,67 @@
 <!-- inicio do card novo 01.5 -->
 <a href="./doces.html" class="block w-full overflow-hidden bg-[url('https://saborecia.com.br/wp-content/uploads/2020/08/MG_4421-scaled.jpg')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-md uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Doces</span>
+   <span class="z-50 px-4.5 py-3 text-md uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Doces</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 <!-- inicio do card novo 01.5 -->
 <a href="./salgados.html" class="block w-full overflow-hidden bg-[url('https://cursos.ce.senac.br/wp-content/uploads/2022/06/salgados-comerciais.jpg')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Salgados</span>
+   <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Salgados</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 <!-- inicio do card novo 01.5 -->
 <a href="./kit-festa.html" class="block w-full overflow-hidden bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3xjVTfd0ODF4vYUxZ8Obr5F67Pg3rcDCTA&s')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Kit Festa</span>
+   <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Kit Festa</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 <!-- inicio do card novo 01.5 -->
 <a href="./bolos-e-tortas.html" class="block w-full overflow-hidden bg-[url('https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=803&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Bolos e Tortas</span>
+   <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Bolos e Tortas</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 <!-- inicio do card novo 01.5 -->
 <a href="./bolos-e-tortas.html" class="block w-full overflow-hidden bg-[url('https://images.unsplash.com/photo-1593307744921-00b909a78419?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Tortas Salgadas</span>
+   <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Tortas Salgadas</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 <!-- inicio do card novo 01.5 -->
 <a href="./paes.html" class="block w-full overflow-hidden bg-[url('https://images.unsplash.com/photo-1752245067634-86d3b9ea7a4b?q=80&w=1002&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-60 object-contain relative rounded-xl hover:scale-102 transition duration-600 group" target="_blank">
 
- <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
-     <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Pâes</span>
+   <span class="z-50 px-4.5 py-3 text-lg uppercase absolute bottom-0 font-medium leading-tight tracking-wide text-gray-50 drop-shadow-md flex items-center gap-2">
+       <img src="./img/icon-cart.svg" alt="ícone carrinho" class="h-4 group-hover:rotate-20 transition-all duration-600">Pâes</span>
 
-     <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
+       <div class="absolute h-24 group-hover:h-full w-full bg-gradient-to-t from-red-950  transition-all duration-600 bottom-0"></div>
 
- </a>
+   </a>
 <!-- inicio do card novo 01.5 -->
 
 </div>
@@ -221,7 +251,7 @@
     <div class="max-w-screen-xl mx-auto">
 
         <div class="flex max-md:flex-col gap-2 max-md:items-start lg:items-center justify-between">
-            <h2 class="text-3xl text-red-950">Quem Somos</h2>
+            <h2 class="text-4xl text-red-950">Quem Somos</h2>
             <p class="font-medium text-red-950 leading-tight max-w-xs lg:text-right">Há mais de 20 anos tornando sua celebração mais especial. </p>
         </div>
 
@@ -279,7 +309,7 @@
 
         <div class="bg-red-700 hover:bg-red-800 transition duration-600 rounded-xl flex flex-col gap-2 text-center lg:py-16 max-md:py-10 max-md:px-10 items-center justify-center max-md:mt-4">
 
-            <h3 class="text-3xl text-yellow-100 max-w-lg">Comemorar ficou mais importante do que nunca!</h3>
+            <h3 class="text-4xl text-yellow-100 max-w-lg">Comemorar ficou mais importante do que nunca!</h3>
             <p class="text-white max-w-xl mt-2 font-medium">O mundo aprendeu a valorizar cada momento, cada pessoa e a preciosidade da vida. Nossa missão se tornou ainda mais especial: ajudar você a celebrar os instantes que realmente importam, fortalecendo os laços de amor e carinho. Não deixe passar em branco, comemore cada conquista!</p>
             <p class="text-sm opacity-70 text-white mt-2">BomBom - Doces e Salgados</p>
 
@@ -292,7 +322,7 @@
     <div class="max-w-screen-xl mx-auto">
 
       <div class="flex max-md:flex-col gap-2 max-md:mb-8 max-md:items-start lg:items-center justify-between">
-        <h4 class="text-3xl text-red-950">Pontos de Retirada</h4>
+        <h4 class="text-4xl text-red-950">Pontos de Retirada</h4>
         <p class="font-medium text-red-950 leading-tight lg:text-right">Podem fazer também<br class="max-md:hidden"> a retirada em nossa fabrica</p>
     </div>
 
@@ -302,28 +332,28 @@
             <div class=" w-full h-48 rounded-lg bg-red-700 bg-[url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
             <p class="text-md font-semibold text-red-950 mt-2 mb-1.5">Bairro - Salvador</p>
             <p class="text-xs text-red-950 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="mt-4 uppercase text-xs text-white bg-red-700 hover:bg-red-800 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
+            <a href="#" class="mt-4 uppercase text-xs text-black bg-green-400 hover:bg-green-500 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
         </div>
 
         <div class="w-full">
             <div class=" w-full h-48 rounded-lg bg-red-700 bg-[url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
             <p class="text-md font-semibold text-red-950 mt-2 mb-1.5">Bairro - Salvador</p>
             <p class="text-xs text-red-950 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="mt-4 uppercase text-xs text-white bg-red-700 hover:bg-red-800 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
+            <a href="#" class="mt-4 uppercase text-xs text-black bg-green-400 hover:bg-green-500 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
         </div>
 
         <div class="w-full">
             <div class=" w-full h-48 rounded-lg bg-red-700 bg-[url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
             <p class="text-md font-semibold text-red-950 mt-2 mb-1.5">Bairro - Salvador</p>
             <p class="text-xs text-red-950 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="mt-4 uppercase text-xs text-white bg-red-700 hover:bg-red-800 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
+            <a href="#" class="mt-4 uppercase text-xs text-black bg-green-400 hover:bg-green-500 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
         </div>
 
         <div class="w-full">
             <div class=" w-full h-48 rounded-lg bg-red-700 bg-[url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"></div>
             <p class="text-md font-semibold text-red-950 mt-2 mb-1.5">Bairro - Salvador</p>
             <p class="text-xs text-red-950 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#" class="mt-4 uppercase text-xs text-white bg-red-700 hover:bg-red-800 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
+            <a href="#" class="mt-4 uppercase text-xs text-black bg-green-400 hover:bg-green-500 px-5 py-3 rounded-full flex items-center justify-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>Chamar Whatsapp</a>       
         </div>
 
     </div> 
@@ -338,7 +368,7 @@
         <div class="w-full h-80 bg-[url('./img/cerimonial.jpg')] bg-cover bg-center"></div>
         
         <div class="lg:px-20 px-10 py-10 w-full">
-            <h5 class="text-3xl text-yellow-100 max-w-lg">Avani Agnes Cerimonial</h5>
+            <h5 class="text-4xl text-yellow-100 max-w-lg">Avani Agnes Cerimonial</h5>
             <p class="text-white max-w-xl mt-5 font-medium">Transformando sonhos em experiências inesquecíveis, com elegância, organização e cuidado em cada detalhe.</p>
 
             <div class="flex items-end justify-between mt-10">
@@ -360,64 +390,65 @@
 <footer class="lg:px-10 px-5 lg:py-20 py-16 bg-red-950">
     <div class="max-w-screen-xl mx-auto">
 
-          <div class="flex justify-between items-center mb-10">
-            <img src="./img/logo-bombom.svg" alt="Logo BomBom Doces e Salgados" class="h-14">
-            <a href="#scroll-top" class="hover:scale-105 transition-all duration-600"><img src="./img/scroll-top.svg" alt="Subir" class="h-10"></a>
-        </div>
+      <div class="flex justify-between items-center mb-10">
+        <img src="./img/logo-bombom.svg" alt="Logo BomBom Doces e Salgados" class="h-14">
+        <a href="#scroll-top" class="hover:scale-105 transition-all duration-600"><img src="./img/scroll-top.svg" alt="Subir" class="h-10"></a>
+    </div>
 
-        <div class="flex max-md:flex-col justify-between items-start max-md:gap-8 lg:gap-20">
-           <div class="text-white text-sm flex flex-col gap-3 w-full">
-                <h6 class="font-medium text-lg text-yellow-100 mb-2">Contato</h6>
-                <a href="tel:5571984195656" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-phone"></i>71 98419-5656</a>
-                <a href="https://wa.me/5571987174935?text=(J)%20Olá!%20Gostaria%20de%20fazer%20uma%20pedido%20de%20Doces%20e%20Salgados" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>71 98717-4935</a>
-                <a href="mailto:" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 14px;" class="fa fa-envelope"></i>Email</a>
-                <a href="./img/cardápio-abril-2025-2.pdf" class="block w-fit flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium" download ><img src="./img/icon-pdf.svg" alt="Ícone PDF"> Baixar Cardápio</a>
-            </div>
+    <div class="flex max-md:flex-col justify-between items-start max-md:gap-8 lg:gap-20">
+     <div class="text-white text-sm flex flex-col gap-3 w-full">
+        <h6 class="font-medium text-2xl text-yellow-100 mb-2">Contato</h6>
+        <a href="tel:5571984195656" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-phone"></i>71 98419-5656</a>
+        <a href="https://wa.me/5571987174935?text=(J)%20Olá!%20Gostaria%20de%20fazer%20uma%20pedido%20de%20Doces%20e%20Salgados" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 16px;" class="fa fa-whatsapp"></i>71 98717-4935</a>
+        <a href="mailto:" class="block flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><i style="font-size: 14px;" class="fa fa-envelope"></i>Email</a>
+        <a href="./img/cardápio-abril-2025-2.pdf" class="block w-fit flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium" download ><img src="./img/icon-pdf.svg" alt="Ícone PDF"> Baixar Cardápio</a>
+    </div>
 
-            <div class="text-white flex flex-col gap-2 font-medium w-full">
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Doces</a>
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Salgados</a>
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Tortas e Bolos</a>
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Tortas Salgadas</a>
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Kit Festa</a>
-                <a href="#" class="hover:text-yellow-100 transition duration-600">Pães</a>
-            </div>
+    <div class="text-white flex flex-col gap-2 font-medium w-full">
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Doces</a>
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Salgados</a>
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Tortas e Bolos</a>
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Tortas Salgadas</a>
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Kit Festa</a>
+        <a href="#" class="hover:text-yellow-100 transition duration-600">Pães</a>
+    </div>
 
-            <div class="text-white text-sm flex flex-col gap-3 w-full">
-                <p class="font-medium text-lg text-yellow-100 mb-2 titulo">Endereço da Fabrica</p>
-                <p class="max-w-[200px]">Rua Eng Hamilton Lopes 14 Cosme de Farias 40250400</p>
-                <a href="#" class="flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium mt-2"><img src="./img/icon-instagram.svg" alt="Instagram" class="h-4"> Instagram</a>
-                <a href="#" class="flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><img src="./img/icon-facebook.svg" alt="Facebook" class="h-4"> Facebook</a>
-            </div>
+    <div class="text-white text-sm flex flex-col gap-3 w-full">
+        <p class="font-medium text-2xl text-yellow-100 mb-2 titulo">Endereço da Fabrica</p>
+        <p class="max-w-[200px]">Rua Eng Hamilton Lopes 14 Cosme de Farias 40250400</p>
+        <a href="#" class="flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium mt-2"><img src="./img/icon-instagram.svg" alt="Instagram" class="h-4"> Instagram</a>
+        <a href="#" class="flex items-center gap-2 hover:gap-2.5 transition-all duration-600 font-medium"><img src="./img/icon-facebook.svg" alt="Facebook" class="h-4"> Facebook</a>
+    </div>
 
-            <div class="text-white text-sm flex flex-col gap-3 w-full">
-                <p class="font-medium text-lg text-yellow-100 mb-2 titulo">Pontos de Retirada</p>
-                <p>Bairro 01 - Salvador</p>
-                <p>Bairro 01 - Salvador</p>
-                <p>Bairro 01 - Salvador</p>
-                <p>Bairro 01 - Salvador</p>
-            </div>
-        </div>
+    <div class="text-white text-sm flex flex-col gap-3 w-full">
+        <p class="font-medium text-2xl text-yellow-100 mb-2 titulo">Pontos de Retirada</p>
+        <p>Bairro 01 - Salvador</p>
+        <p>Bairro 01 - Salvador</p>
+        <p>Bairro 01 - Salvador</p>
+        <p>Bairro 01 - Salvador</p>
+    </div>
+</div>
 
-        <!-- ASSINATURA CAMALEÃO -->
-        <div class="pt-6 bg-red-950 border-t border-red-900 mt-10">
-          <div class="flex max-md:flex-col items-center max-md:items-start justify-between max-md:gap-6">
-            <span class="block opacity-50 text-white text-sm max-md:text-right">© 2025 BomBom - Doces e Salgados | Salvador-BA</span>
+<!-- ASSINATURA CAMALEÃO -->
+<div class="pt-6 bg-red-950 border-t border-red-900 mt-10">
+  <div class="flex max-md:flex-col items-center max-md:items-start justify-between max-md:gap-6">
+    <span class="block opacity-50 text-white text-sm max-md:text-right">© 2025 BomBom - Doces e Salgados | Salvador-BA</span>
 
-            <a href="https://claracostaestetica.com.br/termos-de-uso.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Termo de Uso</a>
-            <a href="https://claracostaestetica.com.br/politica-de-privacidade.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Política de Privacidade</a>
-            <a href="https://claracostaestetica.com.br/politica-de-cookies.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Política de Cookies</a>
+    <a href="https://claracostaestetica.com.br/termos-de-uso.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Termo de Uso</a>
+    <a href="https://claracostaestetica.com.br/politica-de-privacidade.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Política de Privacidade</a>
+    <a href="https://claracostaestetica.com.br/politica-de-cookies.html" class="text-white text-sm opacity-50 hover:opacity-100 transition duration-600" target="_blank">Política de Cookies</a>
 
-            <div class="flex items-center gap-2">
-              <span class="block text-xs text-white opacity-50 max-md:hidden uppercase">Developed by</span>
-              <a href="https://camaleaopublicidade.com.br/" target="_blank"><img src="./img/logo-camaleao.svg" title="Agência Camaleão" alt="Camaleão Publidade" class="h-3 max-md:h-4 mb-0.5"></a>
-          </div>
-
-      </div>
+    <div class="flex items-center gap-2">
+      <span class="block text-xs text-white opacity-50 max-md:hidden uppercase">Developed by</span>
+      <a href="https://camaleaopublicidade.com.br/" target="_blank"><img src="./img/logo-camaleao.svg" title="Agência Camaleão" alt="Camaleão Publidade" class="h-3 max-md:h-4 mb-0.5"></a>
   </div>
-  <!-- ASSINATURA CAMALEÃO -->
+
+</div>
+</div>
+<!-- ASSINATURA CAMALEÃO -->
 </div>
 </footer>
+
 
 <!-- BOTÃO FLUTUANTE WHATSAPP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -427,7 +458,7 @@
 <!-- BOTÃO FLUTUANTE WHATSAPP -->
 
 
-<script>
+<!-- <script>
 // Bloqueia o evento de cópia
 document.addEventListener("copy", function(e) {
   e.preventDefault();
@@ -456,8 +487,227 @@ document.addEventListener("keydown", function(e) {
   }
 });
 </script>
+-->
+
+<script>
+    let slideIndex = 1;
+let autoPlayInterval = 4000; // tempo em ms (4000 = 4s)
+
+showSlides(slideIndex);
+startAutoPlay();
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  resetAutoPlay();
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+  resetAutoPlay();
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) { slideIndex = 1 }    
+      if (n < 1) { slideIndex = slides.length }
+
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex - 1].style.display = "block";  
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function startAutoPlay() {
+      autoplay = setInterval(() => {
+        plusSlides(1);
+    }, autoPlayInterval);
+  }
+
+  function resetAutoPlay() {
+      clearInterval(autoplay);
+      startAutoPlay();
+  }
+</script>
 
 
+<section class="max-w-screen-xl  mx-auto px-4 py-4 mb-6 text-xs hidden">
+    <p class="mb-2 font-semibold">Doces e Salgados em Salvador / Bairros de Salvador</p>
+
+    ● Doces e Salgados em Acupe / Salvador
+    ● Doces e Salgados em Aeroporto / Salvador
+    ● Doces e Salgados em Águas Claras / Salvador
+    ● Doces e Salgados em Alto da Terezinha / Salvador
+    ● Doces e Salgados em Alto das Pombas / Salvador
+    ● Doces e Salgados em Alto do Cabrito / Salvador
+    ● Doces e Salgados em Alto do Coqueirinho / Salvador
+    ● Doces e Salgados em Amaralina / Salvador
+    ● Doces e Salgados em Areia Branca / Salvador
+    ● Doces e Salgados em Arenoso / Salvador
+    ● Doces e Salgados em Arraial do Retiro / Salvador
+    ● Doces e Salgados em Bairro da Paz / Salvador
+    ● Doces e Salgados em Baixa de Quintas / Salvador
+    ● Doces e Salgados em Barbalho / Salvador
+    ● Doces e Salgados em Barra / Salvador
+    ● Doces e Salgados em Barreiras / Salvador
+    ● Doces e Salgados em Barris / Salvador
+    ● Doces e Salgados em Beiru / Salvador
+    ● Doces e Salgados em Tancredo Neves / Salvador
+    ● Doces e Salgados em Boa Viagem / Salvador
+    ● Doces e Salgados em Boa Vista de Brotas / Salvador
+    ● Doces e Salgados em Boa Vista de São Caetano / Salvador
+    ● Doces e Salgados em Boca da Mata / Salvador
+    ● Doces e Salgados em Boca do Rio / Salvador
+    ● Doces e Salgados em Bom Juá / Salvador
+    ● Doces e Salgados em Bonfim / Salvador
+    ● Doces e Salgados em Brotas / Salvador
+    ● Doces e Salgados em Cabula / Salvador
+    ● Doces e Salgados em Cabula VI / Salvador
+    ● Doces e Salgados em Caixa D’Água / Salvador
+    ● Doces e Salgados em Cajazeiras II / Salvador
+    ● Doces e Salgados em Cajazeiras IV / Salvador
+    ● Doces e Salgados em Cajazeiras V / Salvador
+    ● Doces e Salgados em Cajazeiras VI / Salvador
+    ● Doces e Salgados em Cajazeiras VII / Salvador
+    ● Doces e Salgados em Cajazeiras VIII / Salvador
+    ● Doces e Salgados em Cajazeiras X / Salvador
+    ● Doces e Salgados em Cajazeiras XI / Salvador
+    ● Doces e Salgados em Calabar / Salvador
+    ● Doces e Salgados em Calabetão / Salvador
+    ● Doces e Salgados em Calçada / Salvador
+    ● Doces e Salgados em Caminho das Árvore / Salvadors
+    ● Doces e Salgados em Caminho de Areia / Salvador
+    ● Doces e Salgados em Campinas de Pirajá / Salvador
+    ● Doces e Salgados em Canabrava / Salvador
+    ● Doces e Salgados em Candeal / Salvador
+    ● Doces e Salgados em Canela / Salvador
+    ● Doces e Salgados em Capelinha / Salvador
+    ● Doces e Salgados em Cassange / Salvador
+    ● Doces e Salgados em Castelo Branco / Salvador
+    ● Doces e Salgados em Centro / Salvador
+    ● Doces e Salgados em Centro Administrativo da Bahia / Salvador
+    ● Doces e Salgados em Centro Histórico / Salvador
+    ● Doces e Salgados em Chapada do Rio Vermelho / Salvador
+    ● Doces e Salgados em Cidade Nova / Salvador
+    ● Doces e Salgados em Comércio / Salvador
+    ● Doces e Salgados em Cosme de Farias / Salvador
+    ● Doces e Salgados em Costa Azul / Salvador
+    ● Doces e Salgados em Coutos / Salvador
+    ● Doces e Salgados em Curuzu / Salvador
+    ● Doces e Salgados em Dom Avelar / Salvador
+    ● Doces e Salgados em Doron / Salvador
+    ● Doces e Salgados em Engenho Velho da Federação / Salvador
+    ● Doces e Salgados em Engenho Velho de Brotas / Salvador
+    ● Doces e Salgados em Engomadeira / Salvador
+    ● Doces e Salgados em Fazenda Coutos / Salvador
+    ● Doces e Salgados em Fazenda Grande do Retiro / Salvador
+    ● Doces e Salgados em Fazenda Grande I / Salvador
+    ● Doces e Salgados em Fazenda Grande II / Salvador
+    ● Doces e Salgados em Fazenda Grande III / Salvador
+    ● Doces e Salgados em Fazenda Grande IV / Salvador
+    ● Doces e Salgados em Federação / Salvador
+    ● Doces e Salgados em Garcia / Salvador
+    ● Doces e Salgados em Graça / Salvador
+    ● Doces e Salgados em Granjas Rurais Presidente Vargas / Salvador
+    ● Doces e Salgados em IAPI / Salvador
+    ● Doces e Salgados em Ilha de Bom Jesus dos Passos / Salvador
+    ● Doces e Salgados em Ilha de Maré / Salvador
+    ● Doces e Salgados em Ilha dos Frades / Salvador
+    ● Doces e Salgados em Imbuí / Salvador
+    ● Doces e Salgados em Itacaranha / Salvador
+    ● Doces e Salgados em Itaigara / Salvador
+    ● Doces e Salgados em Itapuã / Salvador
+    ● Doces e Salgados em Itinga / Salvador
+    ● Doces e Salgados em Jaguaripe I / Salvador
+    ● Doces e Salgados em Jardim Armação / Salvador
+    ● Doces e Salgados em Jardim Cajazeiras / Salvador
+    ● Doces e Salgados em Jardim das Margaridas / Salvador
+    ● Doces e Salgados em Jardim Nova Esperança / Salvador
+    ● Doces e Salgados em Jardim Santo Inácio / Salvador
+    ● Doces e Salgados em Lapinha / Salvador
+    ● Doces e Salgados em Liberdade / Salvador
+    ● Doces e Salgados em Lobato / Salvador
+    ● Doces e Salgados em Luiz Anselmo / Salvador
+    ● Doces e Salgados em Macaúbas / Salvador
+    ● Doces e Salgados em Mangueira / Salvador
+    ● Doces e Salgados em Marechal Rondon / Salvador
+    ● Doces e Salgados em Mares / Salvador
+    ● Doces e Salgados em Massaranduba / Salvador
+    ● Doces e Salgados em Mata Escura / Salvador
+    ● Doces e Salgados em Matatu / Salvador
+    ● Doces e Salgados em Monte Serrat / Salvador
+    ● Doces e Salgados em Moradas da Lagoa / Salvador
+    ● Doces e Salgados em Mussurunga / Salvador
+    ● Doces e Salgados em Narandiba / Salvador
+    ● Doces e Salgados em Nazaré / Salvador
+    ● Doces e Salgados em Nordeste de Amaralina / Salvador
+    ● Doces e Salgados em Nova Brasília / Salvador
+    ● Doces e Salgados em Nova Constituinte / Salvador
+    ● Doces e Salgados em Nova Esperança / Salvador
+    ● Doces e Salgados em Nova Sussuarana / Salvador
+    ● Doces e Salgados em Novo Horizonte / Salvador
+    ● Doces e Salgados em Novo Marotinho / Salvador
+    ● Doces e Salgados em Ondina / Salvador
+    ● Doces e Salgados em Palestina / Salvador
+    ● Doces e Salgados em Paripe / Salvador
+    ● Doces e Salgados em Patamares / Salvador
+    ● Doces e Salgados em Pau da Lima / Salvador
+    ● Doces e Salgados em Pau Miúdo / Salvador
+    ● Doces e Salgados em Periperi / Salvador
+    ● Doces e Salgados em Pernambués / Salvador
+    ● Doces e Salgados em Pero Vaz / Salvador
+    ● Doces e Salgados em Piatã / Salvador
+    ● Doces e Salgados em Pirajá / Salvador
+    ● Doces e Salgados em Pituaçu / Salvador
+    ● Doces e Salgados em Pituba / Salvador
+    ● Doces e Salgados em Plataforma / Salvador
+    ● Doces e Salgados em Porto Seco Pirajá / Salvador
+    ● Doces e Salgados em Praia Grande / Salvador
+    ● Doces e Salgados em Resgate / Salvador
+    ● Doces e Salgados em Retiro / Salvador
+    ● Doces e Salgados em Ribeira / Salvador
+    ● Doces e Salgados em Rio Sena / Salvador
+    ● Doces e Salgados em Rio Vermelho / Salvador
+    ● Doces e Salgados em Roma / Salvador
+    ● Doces e Salgados em Saboeiro / Salvador
+    ● Doces e Salgados em Santa Cruz / Salvador
+    ● Doces e Salgados em Santa Luzia / Salvador
+    ● Doces e Salgados em Santa Mônica / Salvador
+    ● Doces e Salgados em Santo Agostinho / Salvador
+    ● Doces e Salgados em Santo Antônio / Salvador
+    ● Doces e Salgados em São Caetano / Salvador
+    ● Doces e Salgados em São Cristóvão / Salvador
+    ● Doces e Salgados em São Gonçalo / Salvador
+    ● Doces e Salgados em São João do Cabrito / Salvador
+    ● Doces e Salgados em São Marcos / Salvador
+    ● Doces e Salgados em São Rafael / Salvador
+    ● Doces e Salgados em São Tomé / Salvador
+    ● Doces e Salgados em Saramandaia / Salvador
+    ● Doces e Salgados em Saúde / Salvador
+    ● Doces e Salgados em Sete de Abril / Salvador
+    ● Doces e Salgados em Stella Maris / Salvador
+    ● Doces e Salgados em STIEP / Salvador
+    ● Doces e Salgados em Sussuarana / Salvador
+    ● Doces e Salgados em Tororó / Salvador
+    ● Doces e Salgados em Trobogy / Salvador
+    ● Doces e Salgados em Uruguai / Salvador
+    ● Doces e Salgados em Vale das Pedrinhas / Salvador
+    ● Doces e Salgados em Vale dos Lagos / Salvador
+    ● Doces e Salgados em Valéria / Salvador
+    ● Doces e Salgados em Vila Canária / Salvador
+    ● Doces e Salgados em Vila Laura / Salvador
+    ● Doces e Salgados em Vila Ruy Barbosa / Salvador
+    ● Doces e Salgados em Jardim Cruzeiro / Salvador
+    ● Doces e Salgados em Vitória / Salvador
+</section>
 
 </body>
 </html>
